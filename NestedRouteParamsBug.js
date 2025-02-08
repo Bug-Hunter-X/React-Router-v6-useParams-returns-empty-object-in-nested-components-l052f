@@ -1,0 +1,1 @@
+In React Router Dom v6, using the `useParams` hook inside a component that's not directly nested within a route that matches the parameters will result in an empty object being returned by `useParams()`. This can lead to unexpected behavior, especially when the app structure includes nested routes and components that need to access parameters from parent routes.
